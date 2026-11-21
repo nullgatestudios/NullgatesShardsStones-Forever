@@ -1,0 +1,7 @@
+<Bindings>
+    <!-- Secure click bindings: each uses or creates its stone -->
+    <Binding name="CLICK NullgatesShardsStonesHealthstone:LeftButton" header="NULLGATESSHARDSSTONES"/>
+    <Binding name="CLICK NullgatesShardsStonesSoulstone:LeftButton"/>
+    <Binding name="CLICK NullgatesShardsStonesSpellstone:LeftButton"/>
+    <Binding name="CLICK NullgatesShardsStonesFirestone:LeftButton"/>
+</Bindings>

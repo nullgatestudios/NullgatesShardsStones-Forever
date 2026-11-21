@@ -1,6 +1,8 @@
 # Nullgate's Shards & Stones - Forever: Plan
 
-Status: planning, with no code written yet. Planned on 2026-11-20.
+Status: phases 0 to 4 built as 1.0.0-beta.1 on 2026-11-20; the in-game checks wait for testers (`/nshard check`). Planned on 2026-11-20.
+
+Forever data notes: Create Healthstone picks its item when cast (Improved Healthstone variants), so ranks map to three items each; Spellstones and Firestones are used from the bags in Forever (new use spells), so all four buttons are use-or-create. Healthstone cooldown 2 min; Soulstone buff and cooldown 30 min.
 
 - **Folder:** `NullgatesShardsStones-Forever`
 - **Saved variables:** `NullgatesShardsStonesDB` (per character)
@@ -41,7 +43,7 @@ Each stone button is a **secure button** that either uses the stone item or cast
 
 ## Phase 3: Shard limit and Soulstone tracker
 
-- Shard limit setting and Trim button.
+- Shard limit setting; clicking the shard counter trims one extra shard.
 - Soulstone tracker: who holds your Soulstone, with a 30-minute timer.
 
 ## Phase 4: More stones, settings, languages, beta
