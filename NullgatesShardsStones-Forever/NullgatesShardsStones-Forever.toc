@@ -7,6 +7,7 @@
 ## SavedVariablesPerCharacter: NullgatesShardsStonesDB
 ## OptionalDeps: NullgatesAddonConfig-Forever
 ## X-License: Restricted - Source Available (All Rights Reserved, No Derivatives)
+## X-Curse-Project-ID: 1819427
 ## X-Website: https://github.com/nullgatestudios/NullgatesShardsStones-Forever
 
 Locale.lua
