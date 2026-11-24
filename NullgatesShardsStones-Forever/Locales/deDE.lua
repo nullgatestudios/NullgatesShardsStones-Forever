@@ -2,6 +2,10 @@
 local _, ns = ...
 
 ns.RegisterLanguagePack("deDE", "Deutsch", {
+    ["Bug report"] = "Fehlerbericht",
+    ["Select all"] = "Alles markieren",
+    ["Press Ctrl+C to copy this report, then paste it into a new report at the link below, with a few words on what happened."] = "Drücke Strg+C, um diesen Bericht zu kopieren, und füge ihn dann unter dem Link unten in einen neuen Bericht ein, mit ein paar Worten dazu, was passiert ist.",
+    ["Select link"] = "Link markieren",
     ["Automatic (game language)"] = "Automatisch (Spielsprache)",
     ["Bar"] = "Leiste",
     ["Bar scale"] = "Leistengröße",

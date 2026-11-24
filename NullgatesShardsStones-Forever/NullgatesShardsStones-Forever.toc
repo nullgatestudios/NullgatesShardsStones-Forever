@@ -2,7 +2,7 @@
 ## Title: |cff00c0ffNullgate's Shards & Stones|r - |cffffd100Forever|r
 ## Notes: Count and trim soul shards; use or create Healthstones, Soulstones, Spellstones and Firestones with one click.
 ## Author: Nullgate Studios
-## Version: 1.0.0-beta.1
+## Version: 1.0.0-beta.2
 ## IconTexture: Interface\Icons\INV_Misc_Gem_Amethyst_02
 ## SavedVariablesPerCharacter: NullgatesShardsStonesDB
 ## OptionalDeps: NullgatesAddonConfig-Forever
@@ -26,5 +26,6 @@ Shards.lua
 Tracker.lua
 Buttons.lua
 Options.lua
+NullgateReport.lua
 Check.lua
 Core.lua

@@ -184,6 +184,12 @@ OK(NullgatesShardsStonesFirestone.shown, "turning on the Firestone button shows 
 
 -- --- /nshard check ---------------------------------------------------------------------------
 SlashCmdList.NULLGATESSHARDSSTONES("check")
+do -- the report window every Nullgate addon shares
+    local w = NullgateReportWindow
+    OK(w and w.shown and w.url == "https://nullgatestudios.com/report?addon=shards-stones", "check opens the shared report window with this addon's link")
+    OK(w and w.text and w.text:find("Addon: shards-stones\nNullgate's Shards & Stones - Forever ", 1, true) == 1, "the report starts with the addon's slug and name")
+    OK(w and w.box.text == w.text and w.link.text == w.url, "the report and the link are in the window, ready to copy")
+end
 local log = table.concat(db.check or {}, "\n")
 OK(log:find("DeleteCursorItem=yes", 1, true), "check reports which calls exist")
 OK(log:find("healthstone: ranks 6201=known", 1, true), "check reports the known ranks")
